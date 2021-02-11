@@ -1,14 +1,45 @@
-<?php
+<?php get_header(); ?>
 
-/*$var1 = "virensys";
-$var2 = "curso";
-$var3 = "2021";
+    <Main>
+        <section>
+          <article>
+              <h2>Receta 1</h2>
+              <img src="_resources/espaguetis-de-calabacin.jpg">
+              <br>
+           Lorem ipsum dolor sit amet consectetur adipisicing elit.
+           </article>
 
-echo "<div><p>Hola mundo ".$var1" ".$var2." ".$var3." </p></div>"
+           <article>
+              <h2>Receta 2</h2>
+              <img src="_resources/lubina-con-hummus-de-guisantes.jpg">
+              <br>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </article>
 
-echo date ("Y");*/
+            <article>
+              <h2>Receta 3</h2>
+              <img src="_resources/tiramisu-express.jpg">
+              <br>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </article>
 
-echo "misrecetas.com - ".date("Y");
+            <article>
+              <h2>Receta 4</h2>
+              <img src="_resources/vichyssoise-de-esparragos-blancos.jpg">
+              <br>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          </article>
+        </section>
 
+        <section>
+          <h1>Menú del día</h1>
+              <ul>
+                  <li>Receta 6</li>
+                  <li>Receta 7</li>
+                  <li>Receta 8</li>
+              </ul>
+        </section>
+    </Main>
 
-?>
+</body>
+<hr>
